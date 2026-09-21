@@ -2,3 +2,4 @@
 library vertivolatam_ui;
 
 export 'src/vertivo_tokens.dart';
+export 'package:shared_ui_core/shared_ui_core.dart';
