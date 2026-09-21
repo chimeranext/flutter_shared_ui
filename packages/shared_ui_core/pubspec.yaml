@@ -1,0 +1,19 @@
+name: shared_ui_core
+description: ChimeraNext UI foundation — backend selector (material/fluent/cupertino) + style-dictionary tokens.json reader.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: '^3.8.0'
+  flutter: '>=3.32.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluent_2: ^0.0.5
+  material_ui: ^1.3.0
+
+dev_dependencies:
+  flutter_lints: '>=3.0.0 <7.0.0'
+  flutter_test:
+    sdk: flutter

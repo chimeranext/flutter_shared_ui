@@ -1,0 +1,16 @@
+name: vertivo_workspace_ui
+description: ChimeraNext shared Flutter UI monorepo — backend selector, tokens.json reader, brand packages.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: '^3.8.0'
+
+workspace:
+  - packages/shared_ui_core
+  - packages/vertivolatam_ui
+
+# Brand packages to come (each ships its own tokens.json):
+#   - packages/altrupets_ui
+#   - packages/habitanexus_ui
+#   - packages/aduanext_ui
